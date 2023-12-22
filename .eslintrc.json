@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["react-app", "airbnb", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": "off",
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      { "labelAttributes": ["htmlFor"] }
+    ],
+    "import/no-extraneous-dependencies": "off"
+  }
+}
